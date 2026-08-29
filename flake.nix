@@ -36,6 +36,7 @@
                 packages =
                   with pkgs;
                   [
+                    dos2unix
                     clang-tools
                     cmake
                     codespell
