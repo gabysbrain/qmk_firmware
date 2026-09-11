@@ -6,6 +6,8 @@ F_USB = 16000000
 
 RGB_MATRIX_CUSTOM_KB = yes  # Custom keyboard effects
 
+UNICODE_COMMON = yes # see https://docs.qmk.fm/features/unicode
+
 # Add System76 EC command interface as well as I2C and USB mux drivers
 SRC += system76_ec.c usb_mux.c
 I2C_DRIVER_REQUIRED = yes
