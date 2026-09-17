@@ -1,0 +1,10 @@
+// Copyright 2024 torsneyw
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+// RGB Matrix - Dim green light under all keys
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_COLOR
+#define RGB_MATRIX_STARTUP_HUE 85      // Green (0-255 scale)
+#define RGB_MATRIX_STARTUP_SAT 255     // Full saturation
+#define RGB_MATRIX_STARTUP_VAL 100     // Dim brightness (0-255)
