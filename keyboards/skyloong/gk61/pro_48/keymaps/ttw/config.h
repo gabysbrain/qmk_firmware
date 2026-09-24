@@ -4,7 +4,7 @@
 #pragma once
 
 // RGB Matrix - Dim green light under all keys
-#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_COLOR
-#define RGB_MATRIX_STARTUP_HUE 85      // Green (0-255 scale)
-#define RGB_MATRIX_STARTUP_SAT 128     // Full saturation
-#define RGB_MATRIX_STARTUP_VAL 28      // Dim brightness (0-255)
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_COLOR
+#define RGB_MATRIX_DEFAULT_HUE 85      // Green (0-255 scale)
+#define RGB_MATRIX_DEFAULT_SAT 128     // Full saturation
+#define RGB_MATRIX_DEFAULT_VAL 56      // Dim brightness (0-255)
